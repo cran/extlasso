@@ -1,13 +1,13 @@
-ac548a93080ab37b0ea6b911b2dd535f *DESCRIPTION
-389decc1475478a689c1a1285b119355 *NAMESPACE
-fa0623cf5692ad03640602d4830a7057 *R/extlasso.R
+cef998cfc5d8937558447ae5b6c0be2f *DESCRIPTION
+fafeb56b8fd72f13289927226810368e *NAMESPACE
+c36b7d84b7373f5fe56afc84f8f303a8 *R/extlasso.R
 3c55173c2c55a9d3e222ad2457ba6dff *man/bars.Rd
 fdc1d32c88022af4c1bf7e4ddd106380 *man/coef.extlasso.Rd
 40d6fda088cb1538dd645491ff5fc6cf *man/cv.binomial.Rd
 40fb3db061c672ecad90a35fd3d91bc9 *man/cv.extlasso.Rd
 e1b6f9d9c0f4c30dbe349806cf336f77 *man/cv.normal.Rd
 5f22f05a5a3cc411aa7149f9d85a2ada *man/cv.poisson.Rd
-f73225bb82393adcf1e1f228799bdb0d *man/extlasso.Rd
+518bb47236d17935ca336336682eb4bc *man/extlasso.Rd
 67eb4d7a3d7e19c29f3874222d178c65 *man/extlasso.binom.lambda.Rd
 f7ef6794de906b714635094742a3e40e *man/extlasso.binomial.Rd
 4146d0f0b1bef28ba75aca9634973aef *man/extlasso.norm.lambda.Rd

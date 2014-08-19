@@ -1,4 +1,4 @@
 export(extlasso,extlasso.normal,extlasso.binomial,extlasso.poisson,plot.extlasso,predict.extlasso,coef.extlasso,cv.extlasso,cv.normal,cv.binomial,cv.poisson,extlasso.norm.lambda,extlasso.binom.lambda,extlasso.pois.lambda,kfold,fold,msefun.normal,msefun.binomial,msefun.poisson,bars,fl.lambda,fusedlasso)
-S3method(plot, extlasso)
-S3method(predict, extlasso)
+S3method(plot,extlasso)
+S3method(predict,extlasso)
 S3method(coef,extlasso)

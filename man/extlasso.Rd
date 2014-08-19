@@ -10,8 +10,8 @@ normalize=TRUE,tau=1,alpha=1e-12,eps=1e-6,tol=1e-6,maxiter=1e5, nstep=100,min.la
   \item{family}{family should be one of these: "normal","binomial","poisson"}
   \item{intercept}{If TRUE, model includes intercept, else the model does not have intercept.}
   \item{normalize}{If TRUE, columns of x matrix are normalized with mean 0 and norm 1 prior to fitting the model. The coefficients at end are returned on the original scale. Default is normalize = TRUE.}
-  \item{tau}{Elastic net parameter, \eqn{0 \le \tau \le 1} in elastic net penalty \eqn{\lambda\{\tau\|\beta\|_1+(1-\tau)\|\beta\|_2^2\}}. Default tau = 1 corresponds to LASSO penalty.}
-  \item{alpha}{The quantity in approximating \eqn{|\beta| = \sqrt(\beta^2+\alpha)} Default is alpha = 1e-12.}
+  \item{tau}{Elastic net parameter, \eqn{0 \le \tau \le 1} in elastic net penalty \eqn{\lambda{\tau||\beta||_1+(1-\tau)||\beta||_2^2}}. Default tau = 1 corresponds to LASSO penalty.}
+  \item{alpha}{The quantity in approximating \eqn{|\beta_j| = \sqrt(\beta_j^2+\alpha)} Default is alpha = 1e-12.}
   \item{eps}{A value which is used to set a coefficient to zero if coefficients value is within - eps to + eps. Default is eps = 1e-6.}
   \item{tol}{Tolerance criteria for convergence of solutions. Default is tol = 1e-6.}
   \item{maxiter}{Maximum number of iterations permissible for solving optimization problem for a particular lambda. Default is 10000. Rarely you need to change this to higher value.}

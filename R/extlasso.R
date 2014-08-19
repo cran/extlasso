@@ -70,7 +70,7 @@ extlasso.normal<-function(x,y,intercept=TRUE,normalize=TRUE,tau=1,alpha=1e-12,ep
 		}
 	}
 	coef=scale(coef,center=FALSE,scale=normx)
-	if (intercept) beta0=rep(meany,nstep)-coef%*%meanx
+	if (intercept) beta0=rep(meany,nstep)-coef%*%meanx else beta0=rep(0,nstep)
 	L1norm=rowSums(abs(coef))
 	norm.frac=L1norm/max(L1norm)
 	obj=list(beta0=beta0,coef=coef,lambdas=lambdas,L1norm=L1norm,norm.frac=norm.frac,lambda.iter=lambda.iter,of.value=of.value,normx=normx)

@@ -2,3 +2,5 @@ export(extlasso,extlasso.normal,extlasso.binomial,extlasso.poisson,plot.extlasso
 S3method(plot,extlasso)
 S3method(predict,extlasso)
 S3method(coef,extlasso)
+importFrom("graphics", "abline", "axis", "matplot", "segments")
+importFrom("stats", "var")
